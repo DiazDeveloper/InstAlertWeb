@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstAlert - Anticipate al riesgo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="icon">!</span> InstAlert
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#como-funciona">Cómo funciona</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="btn-login">Iniciar sesión</button>
+        </nav>
+    </header>
+
+    <main class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Anticípate a situaciones de <span class="highlight">riesgo</span> en tiempo real</h1>
+            <p class="subtitle">Anticípate a situaciones de riesgo en tiempo real</p>
+            <p class="description">Recibe alertas, visualiza zonas de riesgo y actúa rápidamente para mantenerte seguro.</p>
+            <button class="btn-primary" id="btnZonas">Ver zonas de riesgo</button>
+        </div>
+
+        <div class="hero-image">
+            <div class="map-container-img">
+                <img src="src/img/map.PNG" alt="Mapa de zonas de riesgo" class="map-image">
+            </div>
+        </div>
+    </main>
+
+    <section class="how-it-works" id="como-funciona">
+        <h2>¿Cómo funciona?</h2>
+        <div class="grid-container">
+            <div class="card">
+                <div class="icon-red">📄</div> 
+                <h3>Reportar incidente</h3>
+                <p>Informa rápidamente sobre situaciones de riesgo.</p>
+            </div>
+            <div class="card">
+                <div class="icon-red">📍</div>
+                <h3>Mapa de zonas peligrosas</h3>
+                <p>Visualiza áreas de alto riesgo y evita rutas inseguras durante tus trayectos.</p>
+            </div>
+            <div class="card">
+                <div class="icon-red">🔔</div>
+                <h3>Alertas inmediatas</h3>
+                <p>Recibe notificaciones instantáneas sobre incidentes cerca de tu ubicación.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us" id="beneficios">
+        <div class="section-header">
+            <h2>¿Por qué usar InstAlert?</h2>
+            <p class="section-subtitle">Protección, prevención y respuesta rápida en una sola plataforma.</p>
+        </div>
+        
+        <div class="grid-container">
+            <div class="card">
+                <div class="icon-red">❤️</div>
+                <h3>Seguridad en tiempo real</h3>
+                <p>Recibe alertas inmediatas sobre incidentes cerca de tu ubicación.</p>
+            </div>
+            <div class="card">
+                <div class="icon-red">👤</div>
+                <h3>Decisiones más seguras</h3>
+                <p>Consulta zonas de riesgo antes de salir y evita rutas peligrosas.</p>
+            </div>
+            <div class="card">
+                <div class="icon-red">👥</div>
+                <h3>Comunidad preventiva</h3>
+                <p>Los usuarios colaboran reportando incidentes para proteger a todos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="comunidad">
+        <h2>Lo que dicen nuestros usuarios</h2>
+        <p class="testimonials-subtitle">Miles de personas ya utilizan InstAlert para sentirse más seguras cada día.</p>
+        
+        <div class="grid-container">
+            <div class="testimonial-card">
+                <img src="src/img/test1.PNG" alt="María G." class="user-img">
+                <h3>Testimonio 1</h3>
+                <p>“Gracias a InstAlert pude evitar una zona peligrosa durante la noche.”</p>
+                <span class="user-name">— María G.</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="src/img/test2.PNG" alt="Carlos R." class="user-img">
+                <h3>Testimonio 2</h3>
+                <p>“El botón de emergencia me dio mucha tranquilidad cuando volvía del trabajo.”</p>
+                <span class="user-name">— Carlos R.</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="src/img/test3.PNG" alt="Andrea P." class="user-img">
+                <h3>Testimonio 3</h3>
+                <p>“La app permite que toda la comunidad se mantenga informada y protegida.”</p>
+                <span class="user-name">— Andrea P.</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="footer-top">
+            <div class="footer-contact">
+                <div class="logo">
+                    <span class="icon">!</span> InstAlert
+                </div>
+                <p>sos@instalert.com</p>
+                <p>+51 999 999 999</p>
+            </div>
+            
+            <div class="footer-nav">
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#como-funciona">Cómo funciona</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#comunidad">Comunidad</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <p class="footer-tagline">Protección inteligente para una comunidad más segura.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 InstAlert. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
